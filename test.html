@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 托管两步  -->
+    <!-- 1暂存 -->
+    git add ./test.html /(./)
+    <!-- 2代码库 -m 说明  --all 所有修改文件-->
+    git commit --all -m "this is a message"
+    <!-- 查看状态 -->
+    git status
+    <!-- 查看日志 -->
+    git log [--oneline]
+    <!-- 查看切换版本记录 -->
+    git reflog
+    <!-- 版本回退 -->
+    git reset --hard [版本号]
+    <!-- 回退指定版本 Head指向 -->
+    git reset --hard Head~0/1/2
+</body>
+</html>
